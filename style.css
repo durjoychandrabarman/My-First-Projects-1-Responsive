@@ -1,0 +1,520 @@
+.fira-sans-regular {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(241, 241, 243, 1);
+}
+main{
+    max-width: 1280px;
+    margin: 0 auto ;
+    background-color: rgba(241, 241, 243, 1);
+ }
+/* shared btn */
+.btn-readmore{
+    background-color: #006A50;
+    width: 139px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.125rem ;
+    font-weight: 600 ;
+}
+button:hover {
+    background-color: red;
+
+}
+/* shared hedding */
+.section-title{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 24px; 
+}
+/* nav section style */
+nav{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-bottom: 36px;
+    padding-top: 24px ;
+ }
+ .nav-title{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgba(14, 14, 14, 1);
+ }
+ nav ul li {
+     list-style: none;
+ }
+ nav ul li a{
+     text-decoration: none;
+     font-size: 1.25rem;
+ }
+ .sign-btn{
+    font-weight: 600 ;
+    font-size: 1.125rem;
+    color: rgba(0, 106, 80, 1);
+    width: 116px;
+    height: 52px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 106, 80, 1);
+ }
+ 
+/* banner section style */
+.banner-section{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 0 60px 0 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    box-shadow: 0 0px 0 0 rgba(0, 0, 0, 0.25);
+}
+.banner-content{
+    max-width: 622px ; 
+    padding-top: 117px;
+    padding-bottom: 117px;
+}
+.banner-imges{
+    padding-bottom: 80px;
+    padding-top: 80px ;
+} 
+.idea-title{
+    font-weight: bold;
+    font-size: 3.5rem;
+    color: rgba(14, 14, 14, 1);
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.banner-button{
+    background-color: #006A50;
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    border: none;
+    font-weight: 600 ;  
+}
+.banner-h4{
+    font-size: 1.5rem;
+    color: rgba(14, 14, 14, 0.5);
+}
+
+/* Pillars of "Bangladesh 2.0" style */
+
+.Pillars-title{
+    margin-bottom: 80px;
+}
+ .Pillars-box{
+    display: flex;
+    gap: 24px;
+}
+.Pillars-content-1{
+    padding: 24px 24px ;
+    border-radius: 16px ;
+    background-color:#FFFFFF ;
+    border: 1px solid #ccc;
+}
+.Pillars-content-1 h2 {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.Pillars-content-1{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* The Vision of Future style */
+.vision-preant{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.Vision-box{
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.box{
+    flex: 1;
+    padding: 32px 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+.box h2 {
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+.box-des {
+    line-height: 24px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+    margin-top: 12px;
+}
+.box-descript{
+    line-height: 24px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);   
+    margin-bottom: 48px ; 
+    margin-top: 12px;
+}
+.box:nth-child(1){
+    background-color: rgba(84, 144, 245, 0.2) ;
+}
+.box:nth-child(2){
+    background-color:  #C6E4D6;
+}
+.box:nth-child(3){
+    background-color: #F7EBCF;
+}
+.vision-description{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+} 
+.btn-primary{
+    background-color: #5490F5;
+    width: 122px;
+    height: 41px;
+    font-weight: 600px ;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+}
+.btn-secondary{
+    background-color: #09A15C ;
+    width: 122px;
+    height: 41px;
+    font-weight: 600px ;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+}
+.btn-tertiary{
+    background-color: #FFC239;
+    width: 122px;
+    height: 41px;
+    font-weight: 600px ;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+}
+.description-tittle{
+    padding: 48px 24px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 32px;
+    margin-bottom: 80px;  
+    background-image: url(img/quote-bg.png) ; 
+    background-repeat: no-repeat;
+    background-position: top 25px  left 24px ;
+}
+.lom-description{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 12px;
+}
+.dr-title{
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 1.5rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+}
+.chip-description{
+    line-height: 1.5rem;
+    font-size:  1rem;
+    color: rgba(14, 14, 14, 0.6);
+}
+
+/* Recent News section style */
+.news-box{
+    margin-bottom: 80px;
+}
+.Recent-News{
+    display: flex;
+    gap: 32px;
+    justify-content: space-around;
+    align-items: stretch;
+    padding-left: 48px;
+    padding-right: 48px;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    margin-bottom: 24px;
+}
+.satelite-img{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    border-radius: 24px;
+    box-shadow: 0 2px 2px rgb(0,0, 0, 0.1);
+}
+.bangladesh-satelite{
+    padding-top: 56px;
+    padding-bottom: 56px;
+}  
+.news-subtitle{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.time-date{
+    display: flex;
+    gap: 12px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.news-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.news-description-in{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+ /* donation-options style ba Donate Today section style */
+.donate-container{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.ddonate-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 32px;
+}
+.donation-options{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    gap: 24px;
+}
+.donation-options button {
+    padding: 40px 40px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.donation-options .active {
+    background-color: rgba(198, 228, 214, 1);
+    border: 1px solid #ccc;
+    border-radius: 16px;
+}
+.donation-options button:hover {
+    background-color: rgba(198, 228, 214, 1);
+}
+input[type="text"] {
+     width: 1032px;
+     height: 64px;  
+     padding: 5px;
+     margin-bottom: 20px;
+     border: 1px solid #ccc;
+     font-size: 20px;
+     text-align: center;
+     color: #aaa;
+     font-weight: 20px;
+     border: none;
+     margin-bottom: 32px;
+}
+/* style END */
+
+/* Subscribe Newsletter style */
+ 
+ .newsletter-container{
+    background-color: rgba(198, 228, 214, 1) ;
+    padding: 80px 100px;
+    border-radius: 24px;
+    text-align: center;
+    margin-bottom: 80px;
+} 
+.newsletter-title {
+    margin-bottom: 16px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.newsletter-description {
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 1rem;
+}
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* input[type="email"] { */
+ 
+.email-from{
+    padding: 14px ;
+    width: 600px ;
+    height: 27px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    border-right: none;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 1px 1px rgb(0, 0, 0 , 0.1);
+}
+.form-btn {
+    padding: 10px 20px ;
+    background-color: #006d3e;
+    color: white;
+    border: none;
+    border-radius:0 5px 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+    width: 150px;
+    height: 56px;
+}
+.note {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* footer style */
+.bd-national-anthem{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+  
+.footer-content{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 50px ;
+    padding-bottom: 50px;
+}
+.footer-content h1 {
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 32px;
+}
+.footer-img {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 23px ;
+}
+.footer-content hr {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+/* Device Responsive */
+@media screen and (max-width:576px) {
+    body{
+        margin: 5px;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+        padding: 0 36px 0 36px;
+    }
+    .banner-content{
+        padding-top: 20px
+    }
+    .idea-title{
+        font-size: 2.8rem;
+    }
+    nav , .Pillars-box , .Vision-box , .Recent-News {
+        flex-direction: column ;
+        gap: 24px;
+    }
+    .section-title{
+        text-align: center;
+    }
+    .news-description , .vision-description {
+        margin: 1rem;   
+    }
+    .line-brek{
+        display: none;
+    }
+    .donation-options{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    input[type="text"] {
+        width: auto;
+    } 
+    .banner-section ,.Recent-News ,.newsletter-container , .box  {
+        border-radius: 0px;
+    }
+    .satelite-img , .description-tittle , .donation-options button , .donation-options .active , .Pillars-content-1{
+        border-radius: 5px;
+    } 
+    .bd-national-anthem{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    } 
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    body{
+        margin: 5px;
+    }
+    nav{
+        justify-content: space-around;
+    }
+    .banner-section{
+        padding: 0 20px 0 26px;
+    }
+    .section-title{
+        text-align: center;
+    }
+    input[type="text"] {
+        width: auto;
+    }
+    .news-description , .vision-description{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .banner-section ,.Recent-News ,.newsletter-container , .box  {
+        border-radius: 0px;
+    }
+    .satelite-img , .description-tittle , .donation-options button , .donation-options .active , .Pillars-content-1{
+        border-radius: 5px;
+    }
+}
